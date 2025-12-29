@@ -44,7 +44,7 @@ This is a practical example for understanding the basics of the front-end, inclu
 
 ---
 
-### ???? Search Functionality
+### Search Functionality
 - Search student by name
 - If student exists → show grade
 - If not → “Student not found”
