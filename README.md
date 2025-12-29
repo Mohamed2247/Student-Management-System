@@ -30,7 +30,6 @@ This is a practical example for understanding the basics of the front-end, inclu
 - Calculate:
 
 - Average score
-
 - Highest Grade
 - Lowest grade
 ---
