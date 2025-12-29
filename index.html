@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loginBox">
+      <h2>Login</h2>
+
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+
+      <button onclick="login()">Login</button>
+      <p id="loginError"></p>
+    </div>
+
+    <div id="systemBox" class="hidden">
+      <h1>Students Management System</h1>
+
+      <button onclick="logout()">Logout</button>
+      <br /><br />
+
+      <button id="toggleBtn" onclick="toggleStudents()">Show Students</button>
+      <div id="output"></div>
+
+      <h2>Search Student</h2>
+      <input type="text" id="searchName" placeholder="Enter student name" />
+      <button onclick="searchStudent()">Search</button>
+
+      <p id="searchResult"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

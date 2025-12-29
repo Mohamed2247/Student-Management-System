@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+#loginBox,
+#systemBox {
+  background: white;
+  padding: 20px;
+  width: 320px;
+  margin: auto;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 8px 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#loginError {
+  color: red;
+}
+
+.pass {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
